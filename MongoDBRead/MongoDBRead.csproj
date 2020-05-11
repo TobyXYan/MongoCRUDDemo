@@ -7,17 +7,10 @@
 
   <ItemGroup>
     <PackageReference Include="MongoDB.Driver" Version="2.10.3" />
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\MongoData\MongoData.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="generated.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
   </ItemGroup>
 
 </Project>
